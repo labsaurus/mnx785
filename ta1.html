@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompts for Minimax Video Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .prompt-box {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .prompt-text {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .copy-button {
+            background-color: #39b54a;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            border: none;
+            width: 100%;
+        }
+        .copy-button:hover {
+            background-color: #34a145;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center><h2>Prompts for Minimax Video Generator</h2></center>
+
+        <!-- Prompt 1 -->
+        <div class="prompt-box">
+            <div class="prompt-text">
+                <strong>Prompt:</strong> A stylish woman walks down a Tokyo street filled with warm glowing neon and animated city signage. She wears a black leather jacket, a long red dress, and black boots, and carries a black purse. She wears sunglasses and red lipstick...
+            </div>
+            <button class="copy-button" onclick="copyToClipboard('A stylish woman walks down a Tokyo street filled with warm glowing neon and animated city signage. She wears a black leather jacket, a long red dress, and black boots, and carries a black purse...')">📋 COPY PROMPT</button>
+        </div>
+
+        <!-- Prompt 2 -->
+        <div class="prompt-box">
+            <div class="prompt-text">
+                <strong>Prompt:</strong> The camera starts in a peaceful valley and gradually rises to see the crater. The camera quickly enters the crater to show the eruption and lava flow. Then, the camera flies out of the crater, overlooking the huge shock wave and thick smoke...
+            </div>
+            <button class="copy-button" onclick="copyToClipboard('The camera starts in a peaceful valley and gradually rises to see the crater. The camera quickly enters the crater to show the eruption and lava flow. Then, the camera flies out of the crater...')">📋 COPY PROMPT</button>
+        </div>
+
+        <!-- Prompt 3 -->
+        <div class="prompt-box">
+            <div class="prompt-text">
+                <strong>Prompt:</strong> The camera starts in a peaceful valley and gradually rises to see the crater. The camera quickly enters the crater to show the eruption and lava flow. Then, the camera flies out of the crater, overlooking the huge shock wave and thick smoke...
+            </div>
+            <button class="copy-button" onclick="copyToClipboard('The camera starts in a peaceful valley and gradually rises to see the crater. The camera quickly enters the crater to show the eruption and lava flow. Then, the camera flies out of the crater...')">📋 COPY PROMPT</button>
+        </div>
+
+        <!-- Add more prompt-boxes as needed -->
+
+    </div>
+
+    <script>
+        function copyToClipboard(text) {
+            // Create a temporary textarea element to hold the text
+            var tempTextArea = document.createElement("textarea");
+            tempTextArea.value = text;
+            document.body.appendChild(tempTextArea);
+            
+            // Select the text
+            tempTextArea.select();
+            tempTextArea.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the text to clipboard
+            document.execCommand("copy");
+
+            // Remove the temporary textarea
+            document.body.removeChild(tempTextArea);
+
+            alert("Prompt copied to clipboard!");
+        }
+    </script>
+</body>
+</html>
