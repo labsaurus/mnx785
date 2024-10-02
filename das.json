@@ -26,56 +26,44 @@
   ],
   "Categories": [
     {
-      "category": "Bab Rizki",
-      "image": "file:///android_asset/image/dollar.png"
-    },
-    {
-      "category": "Bab Shalat",
-      "image": "file:///android_asset/image/marketing.png"
-    },
-    {
-      "category": "Bab Puasa",
-      "image": "file:///android_asset/image/night.png"
-    },
-    {
-      "category": "Bab Doa Besar",
-      "image": "file:///android_asset/image/work.png"
+      "category": "Prompt",
+      "image": "https://cdn-icons-png.flaticon.com/128/10817/10817304.png"
     }
   ],
   "Data": [
     {
         "title": "Prompt to Make Animal Video",
-        "category": "Guide",
+        "category": "Prompt",
         "description": "https://agarsupaya.com/2024/10/02/prompt-to-make-animal-video/",
         "image": "https://agarsupaya.com/wp-content/uploads/2024/10/prompt-to-make-animal-video.jpg"
     },
     {
         "title": "Make Video Freestyle from this Prompt",
-        "category": "Guide",
+        "category": "Prompt",
         "description": "https://agarsupaya.com/2024/10/02/make-video-freestyle-from-this-prompt/",
         "image": "https://agarsupaya.com/wp-content/uploads/2024/08/unnamed-file.jpg"
     },
     {
         "title": "Prompt to make Mecha Video",
-        "category": "Guide",
+        "category": "Prompt",
         "description": "https://agarsupaya.com/2024/10/02/prompt-to-make-mecha-video/",
         "image": "https://agarsupaya.com/wp-content/uploads/2024/10/prompt-to-make-mecha-video.jpg"
     },
     {
         "title": "Prompt Mix Themes for you",
-        "category": "Guide",
+        "category": "Prompt",
         "description": "https://agarsupaya.com/2024/10/02/prompt-mix-themes-for-you/",
         "image": "https://agarsupaya.com/wp-content/uploads/2024/10/prompt-mix-themes-for-you.jpg"
     },
     {
         "title": "Nature theme Prompt Videos",
-        "category": "Guide",
+        "category": "Prompt",
         "description": "https://agarsupaya.com/2024/10/02/nature-theme-prompt-videos/",
         "image": "https://agarsupaya.com/wp-content/uploads/2024/10/nature-theme-prompt-videos.jpg"
     },
     {
         "title": "Prompt to make Science fiction video",
-        "category": "Guide",
+        "category": "Prompt",
         "description": "https://agarsupaya.com/2024/10/02/prompt-to-make-science-fiction-video/",
         "image": "https://agarsupaya.com/wp-content/uploads/2024/10/prompt-to-make-science-fiction-video.jpg"
     }
